@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="logo">✊</h1>
+        <ul>
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Github</a></li>
+            <li><a href="http://">Linkedin</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+
+        <button type="button" id="reset" onclick="restart()">Reset!</button>
+
+        <div class="display">
+            <div class="player1" id="p1Display"></div>
+            <h1>VS</h1>
+            <div class="player2" id = p2Display></div>
+        </div>
+        <div class="controls">
+            <button type="button" id="rock">Rock!</button>
+            <button type="button" id="paper">Paper!</button>
+            <button type="button" id="scissor">Scissors!</button>
+        </div>
+        <div class="result" id="res">
+            <table>
+                <tr>
+                    <td>P1 Win: </td>
+                    <td id= "res1">0</td>
+                </tr>
+                <tr>
+                    <td>P2 Win: </td>
+                    <td id= "res2">0</td>
+                </tr>
+                <tr>
+                    <td>Tie: </td>
+                    <td id= "res3">0</td>
+                </tr>
+            </table>    
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
