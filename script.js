@@ -24,8 +24,8 @@ function restart(){
     score3.innerText = tieScore;
     score2.innerText = pTwoScore;
     score1.innerText = pOneScore;
-    p1.innerText = " ";
-    p2.innerText = " ";
+    p1.innerText = "✊ ";
+    p2.innerText = " ✊";
     random1 = 0;
     document.inner
     console.log("You reset the game!");
@@ -64,7 +64,7 @@ pap.addEventListener('click',function(){
     console.log(random1);
 
     if(random1 == 0){
-        p2   .innerText = "✋";
+        p2.innerText = "✋";
         tieScore++;
         score3.innerText = tieScore;
         console.log("tie");
@@ -77,7 +77,7 @@ pap.addEventListener('click',function(){
 
     }
     else if(random1 == 2){
-        p2   .innerText = "✊";
+        p2.innerText = "✊";
         pOneScore++;
         score1.innerText = pOneScore;
         console.log("win");
@@ -110,8 +110,12 @@ s1.addEventListener('click',function(){
     }
 })
 
-function random(){
+function speaker(){
     
 }
 
 console.log(random);
+
+13739
+
+99978
